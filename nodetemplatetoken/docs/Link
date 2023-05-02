@@ -1,0 +1,52 @@
+https://git.updownstreet.com/hackathon_poc
+
+https://git.updownstreet.com/hackathon_poc/substrate-node-template.git
+
+user:cyril
+
+password: cca3DHV5Di5LWyb7itFU
+
+Branch: cyril-branch
+
+git checkout cyril-branch
+
+Au final les liens sont:
+https://groupe1.updownstreet.com/ (demo, demo)
+https://groupe2.updownstreet.com/ (demo,demo)
+https://git.updownstreet.com/ (le GIT, idem que le précédent, même identifiants)
+https://www.updownstreet.com/ (page temporaire)
+
+
+email: apopiak@parity.io
+riot: @apopiak:matrix.parity.io
+github: @apopiak
+
+
+https://www.crowdcast.io/e/Fiat-Collateralized-Stablecoin-with-Substrate -- not use
+
+https://www.youtube.com/watch?v=bnC5RQsaAXQ
+https://www.basis.io/basis_whitepaper_en.pdf
+https://github.com/apopiak/stablecoin
+
+___________________________
+cargo build --release
+cargo build -p pallet-template
+
+./target/release/node-template --tmp --dev --port 30333 --ws-port 9944 --ws-external -lsync=info
+
+./target/release/node-template --tmp --dev --port 30333 --ws-port 9944 --ws-external --rpc-cors all -l txpool=trace,sync=info
+
+./target/release/node-template --tmp --dev --port 30333 --ws-port 9944 --ws-external
+docker run --rm -it --name polkadot-ui -e WS_URL=ws://127.0.0.1:9944 -p 80:80 jacogr/polkadot-js-apps:latest
+
+ http://localhost:80
+// To format code
+cargo fmt
+
+//https://wiki.polkadot.network/docs/build-node-management
+
+https://realt.co/team/
+
+
+
+Fiat Collateralized

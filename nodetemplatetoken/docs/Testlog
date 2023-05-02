@@ -1,0 +1,16 @@
+SUDO -- OK -- ALICE
+AddSuperAdmin -- OK --BOB
+AddComissionAccount -- OK --CHARLIE --5FLSigC9HGRKVhB9FiEo4Y3koPsNmBmLJbpXg2mp1hXcS59Y
+AddSellComissionPercent -- OK -- 2
+AddBuyComissionPercent -- Ok -- 1 
+--------------------------------------------
+CreateProperty -- OK -- (OWNER --BOBSTASH ---5HpG9w8EBLe5XCrbczpwq5TSXvedjrBGCwqxK1iQ7qUsSWFc, 980, 100)
+--------------------------------------------
+BuyPropertyToken -- ALICESTASH -- 5GNJqTPyNqANBkUVMN1LPPrxXnFouWXoe2wNSmmEoLctxiZY
+SellPropertyToken -- Ok
+
+CheckCOMISSION --
+By Admin: BOB
+ModifyPropertyPrice --
+ModifyPropertyDetails --
+DeleteProperty --
